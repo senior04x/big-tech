@@ -86,6 +86,9 @@
   </section>
 <section>
     <div class="container">
+        <h1 style="margin-bottom: 20px;">
+            Buyurtma berish:
+        </h1>
         <form action="https://formspree.io/f/xwpeyjzd" method="post">
             <label for="name"
               >Ismingiz</label
@@ -105,11 +108,14 @@
               type="tel"
               id="phone"
               name="Telofon-raqam"
+              pattern="[0-9]*" 
+              inputmode="numeric" 
+              maxlength="13"
               required
             />
             <label
               for="message"
-              >Izoh qo'shing</label
+              >Izoh qo'shing (nechi dona kerakligi)</label
             >
             <textarea
               placeholder="Izoh qo'shing"
