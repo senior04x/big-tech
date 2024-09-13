@@ -186,7 +186,7 @@
     }
     .header p {
         margin-top: 0;
-      font-size: 20px;
+      font-size: 17px;
       opacity: 0.7;
     }
     .header a {
@@ -195,5 +195,13 @@
     .feature img{
         margin: 0;
     }
+    input::placeholder,
+    textarea::placeholder {
+      opacity: 1;
+    }
+    form label{
+        display: none;
+    }
+ 
   }
   
