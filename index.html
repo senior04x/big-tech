@@ -32,7 +32,18 @@
      </div>
     </div>
   </header>
-
+  <section class="slider-section">
+    <div class="slider-container">
+        <div class="slide-track">
+            <div class="slide-item" style="background-image: url('./img/projector.jpg');"></div>
+            <div class="slide-item" style="background-image: url('./img/projector2.jpg');"></div>
+            <div class="slide-item" style="background-image: url('./img/projector3.jpg');"></div>
+            <div class="slide-item" style="background-image: url('./img/projector4.jpg');"></div>
+        </div>
+        <button class="slider-prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="slider-next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+</section>
   <!-- Product Details Section -->
   <section id="product-details" class="product-details">
     <div class="container">
@@ -152,6 +163,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>
